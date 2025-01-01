@@ -103,6 +103,15 @@ body {
 	border-radius: 0.25rem;
 }
 
+.form-input:invalid {
+	border: 1px solid red;
+}
+
+.form-input:focus {
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
 .footer {
 	padding-top: 2rem;
 	grid-area: footer;
